@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Добро пожаловать в Седону</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+  	<header>
+		<nav>
+			<a class="main-header-logo">
+				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+			</a>
+		<ul class="site-navigation">
+				<li><a class="current-page" href="info.html">Информация</a></li>
+				<li><a href="photo-video.html">Фото и видео</a></li>
+				<li><a href="state-map.html">Карта штата</a></li>
+				<li><a href="hotels.html">Гостиницы</a></li>
+		</ul>
+		</nav>
+	</header>
+	<main>
+		<h1 class="visually-hidden">Добро пожаловать в Седону</h1>
+		<section class="intro">
+			<h2 class="visually-hidden">Почему надо ехать в Седону?</h2>
+			<p>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</p>
+			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+		</section>
+		<section class="real-city">
+			<h2 class="visually-hidden">Настоящий городок</h2>
+			<div class="real-city-info">
+				<h2>Настоящий<br>городок</h2>
+				<p class="number">— №1 —</p>
+				<p class="description">Седона — не аттракцион для туристов,<br>там течет своя жизнь</p>
+			</div>
+			<img src="img/real-city.jpg" width="800" height="256" alt="Фото настоящего городка">
+		</section>
+		<section class="list-advantages">
+			<h2 class="visually-hidden">Дополнительные 3 преимущества</h2>
+			<div class="list-advantages-housing">
+				<h2>Жилье</h2>
+				<p>Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
+			</div>
+			<div  class="list-advantages-food">
+				<h2>Еда</h2>
+				<p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+			</div>
+			<div  class="list-advantages-souvenirs">
+				<h2>Сувениры</h2>
+				<p>Не только китайского,<br>но и местного производства!</p>
+			</div>
+		</section>
+		<section class="bridge">
+			<h2 class="visually-hidden">Мост дьявола</h2>
+			<img class="bridge" src="img/bridge.jpg" width="800" height="256" alt="Фото моста Дьявола">
+			<div class="bridge-info">
+				<h2>Там есть<br>мост дьявола</h2>
+				<p class="number">— №2 —</p>
+				<p class="description">Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
+			</div>
+		</section>
+		<section class="list-advantages-main">
+			<h2 class="visually-hidden">Основные 3 преимущества</h2>
+				<div class="list-advantages-main-space">
+					<h2>Небольшая<br>площадь</h2>
+					<p class="number">— №3 —</p>
+					<p>Все достопримечательности<br> находятся очень близко</p>
+				</div> 
+				<div  class="list-advantages-main-road">
+					<h2>Красивая<br>дорога</h2>
+					<p class="number">— №4 —</p>
+					<p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
+				</div> 
+				<div  class="list-advantages-main-tourists">
+					<h2>Мало<br>туристов</h2>
+					<p class="number">— №5 —</p>
+					<p>Большинство едет в гранд каньон<br> и толпится там</p>
+				</div> 
+		</section>
+		<section class="interested">
+			<h2 class="visually-hidden">Форма обратной связи для заинтересовавшихся</h2>
+			<b>Заинтересовались?</b>
+			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<!--здесь будет форма -->
+		</section>
+		<section class="map">
+			<h2 class="visually-hidden">Карта Седоны</h2>
+			<img src="img/sedonamap.jpg" width="1200" height="594" alt="Sedona map">
+		</section>	
+	</main>
+	<footer>
+		<p class="footer-hashtag">#VISITSEDONA</p>
+		<ul>
+			<li><a class="social-button" href="#">Twitter</a></li>
+			<li><a class="social-button" href="#">Facebook</a></li>
+			<li><a class="social-button" href="#">YouTube</a></li>
+		</ul>
+		<p class="footer-copyright">
+			Website by
+			<a href="https://htmlacademy.ru/">
+				<img src="img/logo-htmlacademy.svg" width="114" height="40" alt="HTML Academy logo">
+			</a>
+		</p>
+	</footer>
+</body>
 </html>
