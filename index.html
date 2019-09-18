@@ -10,13 +10,13 @@
 	<body>
   	<header>
 		<nav>
-			<a class="main-header-logo">
+			<a href="index.html" class="main-header-logo">
 				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
 			</a>
 		<ul class="site-navigation">
-				<li><a class="current-page" href="info.html">Информация</a></li>
-				<li><a href="photo-video.html">Фото и видео</a></li>
-				<li><a href="state-map.html">Карта штата</a></li>
+				<li><a class="current-page" href="#">Информация</a></li>
+				<li><a href="#">Фото и видео</a></li>
+				<li><a href="#">Карта штата</a></li>
 				<li><a href="hotels.html">Гостиницы</a></li>
 		</ul>
 		</nav>
@@ -83,7 +83,32 @@
 			<h2 class="visually-hidden">Форма обратной связи для заинтересовавшихся</h2>
 			<b>Заинтересовались?</b>
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<!--здесь будет форма -->
+			<form class="interested-form" action="https://echo.htmlacademy.ru" method="post">
+				<div class="interested-form-title">
+				<h3 class="interested-form">Поиск гостиницы в Седоне</h3>
+				</div>
+				<p class="interested-item">
+					<label for="interested-arrival-date">Дата заезда:</label>
+					<input id="interested-arrival-date" type="text" name="arrival-date" value="24 апреля 2017">
+				</p>
+				<p class="interested-item">
+					<label for="interested-depature-date">Дата выезда:</label>
+					<input id="interested-depature-date" type="text" name="departure-date" value="4 июля 2017">
+				</p>
+				<p class="interested-item">
+					<label for="interested-adults-number">Взрослые:</label>
+    				<button class="interested-adults-number-minus" type="button">-</button>
+    				<input id="interested-adults-number" type="text" value="2" size="5">
+    				<button class="interested-adults-number-plus" type="button">+</button>
+				</p>
+				<p class="interested-item">
+					<label for="interested-kids-number">Дети:</label>
+    				<button class="interested-kids-number-minus" type="button">-</button>
+    				<input id="interested-kids-number" type="text" value="0" size="5">
+    				<button class="interested-kids-number-plus" type="button">+</button>
+				</p>
+				<button class="button" type="submit">Найти</button>	
+			</form>
 		</section>
 		<section class="map">
 			<h2 class="visually-hidden">Карта Седоны</h2>
