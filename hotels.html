@@ -8,17 +8,19 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-  	<header>
-		<nav>
-			<a href="index.html" class="main-header-logo">
-				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
-			</a>
-		<ul class="site-navigation">
+  	<header class="main-navigation">
+		<nav class="main-navigation">
+			<ul class="site-navigation-left">
 				<li><a class="current-page" href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
+			</ul>
+			<a class="main-header-logo" href="#">
+				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+			</a>
+			<ul class="site-navigation-right">
 				<li><a href="#">Карта штата</a></li>
 				<li><a href="hotels.html">Гостиницы</a></li>
-		</ul>
+			</ul>
 		</nav>
 	</header>
 	<main>
@@ -29,40 +31,52 @@
 		</section>
 		<section class="hotels-found">
 		<h2 class="visually-hidden">Найденные отели в Седоне</h2>
-			<section>
+			<section class="result-hotel">
 				<img src="img/amara-resort.jpg" width="135" height="90" alt="Фото гостиницы Amara Resort & Spa">
-				<h3>Amara Resort & Spa</h3>
+				<h3>Amara Resort &amp; Spa</h3>
 				<p class="housing-type">Гостиница</p>
 				<p class="housing-price">От 4000 Р.</p>
-				<a class="button more-about" href="more-details-amara.html" aria-label="Подробнее о гостинице Amara Resort & Spa">Подробнее</a>
-				<a class="button book-hotel" href="book-amara.html" aria-label="Забронировать гостиницу Amara Resort & Spa">Забронировать</a>
+				<div class="find-more">
+					<a class="more-about" href="more-details-amara.html" aria-label="Подробнее о гостинице Amara Resort & Spa">Подробнее</a>
+				</div>
+				<div class="booking">
+					<a class="book-hotel" href="book-amara.html" aria-label="Забронировать гостиницу Amara Resort & Spa">Забронировать</a>
+				</div>
 				<span class="stars">4 stars</span>
 				<span class="rates">Рейтинг: 8,5</span>
 			</section>
-			<section>
+			<section class="result-hotel">
 				<img src="img/desert-quail-inn.jpg" width="135" height="90" alt="Фото мотеля Desert Quail Inn">
 				<h3>Desert Quail Inn</h3>
 				<p class="housing-type">Мотель</p>
 				<p class="housing-price">От 3000 Р.</p>
-				<a class="button more-about" href="more-details-desert-quail.html" aria-label="Подробнее о мотеле Desert Quail Inn">Подробнее</a>
-				<a class="button book-hotel" href="book-desert-quail.html" aria-label="Забронировать мотель Desert Quail Inn">Забронировать</a>
+				<div class="find-more">
+					<a class="more-about" href="more-details-desert-quail.html" aria-label="Подробнее о мотеле Desert Quail Inn">Подробнее</a>
+				</div>
+				<div class="booking">
+					<a class="book-hotel" href="book-desert-quail.html" aria-label="Забронировать мотель Desert Quail Inn">Забронировать</a>
+				</div>
 				<span class="stars">3 stars</span>
 				<span class="rates">Рейтинг: 8,9</span>	
 			</section>
-			<section>
+			<section class="result-hotel">
 				<img src="img/villas-poco-diablo.jpg" width="135" height="90" alt="Фото апартаментов Villas at Poco Diablo">
 				<h3>Villas at Poco Diablo</h3>
 				<p class="housing-type">Апартаменты</p>
 				<p class="housing-price">От 2000 Р.</p>
-				<a class="button more-about" href="more-details-poco-diablo.html" aria-label="Подробнее об апартаментах Villas at Poco Diablo">Подробнее</a>
-				<a class="button book-hotel" href="book-poco-diablo.html" aria-label="Забронировать апартаменты Villas at Poco Diablo">Забронировать</a>
+				<div class="find-more">
+					<a class="more-about" href="more-details-poco-diablo.html" aria-label="Подробнее об апартаментах Villas at Poco Diablo">Подробнее</a>
+				</div>
+				<div class="booking">
+					<a class="book-hotel" href="book-poco-diablo.html" aria-label="Забронировать апартаменты Villas at Poco Diablo">Забронировать</a>
+				</div>
 				<span class="stars">2 stars</span>
 				<span class="rates">Рейтинг: 9,2</span>	
 			</section>
 		</section>
 	</main>
-	<footer>
-		<p class="footer-hashtag">#VISITSEDONA</p>
+	<footer class="main-footer">
+		<p class="footer-hashtag">&#35;VISITSEDONA</p>
 		<ul>
 			<li><a class="social-button" href="#">Twitter</a></li>
 			<li><a class="social-button" href="#">Facebook</a></li>

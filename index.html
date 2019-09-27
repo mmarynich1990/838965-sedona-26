@@ -8,17 +8,19 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-  	<header>
-		<nav>
-			<a href="index.html" class="main-header-logo">
-				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
-			</a>
-		<ul class="site-navigation">
+  	<header class="main-navigation">
+		<nav class="main-navigation">
+			<ul class="site-navigation-left">
 				<li><a class="current-page" href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
+			</ul>
+			<a class="main-header-logo" href="#">
+				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+			</a>
+			<ul class="site-navigation-right">
 				<li><a href="#">Карта штата</a></li>
 				<li><a href="hotels.html">Гостиницы</a></li>
-		</ul>
+			</ul>
 		</nav>
 	</header>
 	<main>
@@ -40,7 +42,7 @@
 		<section class="list-advantages">
 			<h2 class="visually-hidden">Дополнительные 3 преимущества</h2>
 			<div class="list-advantages-housing">
-				<h2>Жилье</h2>
+				<h2>Жильё</h2>
 				<p>Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
 			</div>
 			<div  class="list-advantages-food">
@@ -107,7 +109,7 @@
     				<input id="interested-kids-number" type="text" value="0" size="5">
     				<button class="interested-kids-number-plus" type="button">+</button>
 				</p>
-				<button class="button" type="submit">Найти</button>	
+				<button class="button search" type="submit">Найти</button>	
 			</form>
 		</section>
 		<section class="map">
@@ -115,8 +117,8 @@
 			<img src="img/sedonamap.jpg" width="1200" height="594" alt="Sedona map">
 		</section>	
 	</main>
-	<footer>
-		<p class="footer-hashtag">#VISITSEDONA</p>
+	<footer class="main-footer">
+		<p class="footer-hashtag">&#35;VISITSEDONA</p>
 		<ul>
 			<li><a class="social-button" href="#">Twitter</a></li>
 			<li><a class="social-button" href="#">Facebook</a></li>
