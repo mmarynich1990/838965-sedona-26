@@ -8,22 +8,24 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-  	<header class="main-navigation">
+  	<header class="main-header">
 		<nav class="main-navigation">
-			<ul class="site-navigation-left">
-				<li><a class="current-page" href="#">Информация</a></li>
-				<li><a href="#">Фото и видео</a></li>
-			</ul>
-			<a class="main-header-logo" href="#">
-				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
-			</a>
-			<ul class="site-navigation-right">
-				<li><a href="#">Карта штата</a></li>
-				<li><a href="hotels.html">Гостиницы</a></li>
-			</ul>
+			<div class="main-navigation-wrapper">
+				<ul class="site-navigation-left">
+					<li><a class="current-page" href="#">Информация</a></li>
+					<li><a href="#">Фото и видео</a></li>
+				</ul>
+				<a class="main-header-logo" href="#">
+					<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+				</a>
+				<ul class="site-navigation-right">
+					<li><a href="#">Карта штата</a></li>
+					<li><a href="hotels.html">Гостиницы</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
-	<main>
+	<main class="container">
 		<h1 class="visually-hidden">Поиск отелей в Седоне</h1>
 		<section class="Search-form">
 			<h2 class="visually-hidden">Форма поиска отелей в Седоне</h2>
@@ -37,10 +39,10 @@
 				<p class="housing-type">Гостиница</p>
 				<p class="housing-price">От 4000 Р.</p>
 				<div class="find-more">
-					<a class="more-about" href="more-details-amara.html" aria-label="Подробнее о гостинице Amara Resort & Spa">Подробнее</a>
+					<a class="more-about" href="#" aria-label="Подробнее о гостинице Amara Resort & Spa">Подробнее</a>
 				</div>
 				<div class="booking">
-					<a class="book-hotel" href="book-amara.html" aria-label="Забронировать гостиницу Amara Resort & Spa">Забронировать</a>
+					<a class="book-hotel" href="#" aria-label="Забронировать гостиницу Amara Resort & Spa">Забронировать</a>
 				</div>
 				<span class="stars">4 stars</span>
 				<span class="rates">Рейтинг: 8,5</span>
@@ -51,10 +53,10 @@
 				<p class="housing-type">Мотель</p>
 				<p class="housing-price">От 3000 Р.</p>
 				<div class="find-more">
-					<a class="more-about" href="more-details-desert-quail.html" aria-label="Подробнее о мотеле Desert Quail Inn">Подробнее</a>
+					<a class="more-about" href="#" aria-label="Подробнее о мотеле Desert Quail Inn">Подробнее</a>
 				</div>
 				<div class="booking">
-					<a class="book-hotel" href="book-desert-quail.html" aria-label="Забронировать мотель Desert Quail Inn">Забронировать</a>
+					<a class="book-hotel" href="#" aria-label="Забронировать мотель Desert Quail Inn">Забронировать</a>
 				</div>
 				<span class="stars">3 stars</span>
 				<span class="rates">Рейтинг: 8,9</span>	
@@ -65,10 +67,10 @@
 				<p class="housing-type">Апартаменты</p>
 				<p class="housing-price">От 2000 Р.</p>
 				<div class="find-more">
-					<a class="more-about" href="more-details-poco-diablo.html" aria-label="Подробнее об апартаментах Villas at Poco Diablo">Подробнее</a>
+					<a class="more-about" href="#" aria-label="Подробнее об апартаментах Villas at Poco Diablo">Подробнее</a>
 				</div>
 				<div class="booking">
-					<a class="book-hotel" href="book-poco-diablo.html" aria-label="Забронировать апартаменты Villas at Poco Diablo">Забронировать</a>
+					<a class="book-hotel" href="#" aria-label="Забронировать апартаменты Villas at Poco Diablo">Забронировать</a>
 				</div>
 				<span class="stars">2 stars</span>
 				<span class="rates">Рейтинг: 9,2</span>	
@@ -76,18 +78,22 @@
 		</section>
 	</main>
 	<footer class="main-footer">
-		<p class="footer-hashtag">&#35;VISITSEDONA</p>
-		<ul>
-			<li><a class="social-button" href="#">Twitter</a></li>
-			<li><a class="social-button" href="#">Facebook</a></li>
-			<li><a class="social-button" href="#">YouTube</a></li>
-		</ul>
-		<p class="footer-copyright">
-			Website by
-			<a href="https://htmlacademy.ru/">
-				<img src="img/logo-htmlacademy.svg" width="114" height="40" alt="HTML Academy logo">
-			</a>
-		</p>
+		<div class="container">
+			<p class="footer-hashtag">&#35;VISITSEDONA</p>
+			<div class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">Twitter</a></li>
+					<li><a class="social-button" href="#">Facebook</a></li>
+					<li><a class="social-button" href="#">YouTube</a></li>
+				</ul>
+			</div>
+			<p class="footer-copyright">
+				Website by
+				<a href="https://htmlacademy.ru/">
+					<img src="img/logo-htmlacademy.svg" width="114" height="40" alt="HTML Academy logo">
+				</a>
+			</p>
+		</div>
 	</footer>
 </body>
 </html>
